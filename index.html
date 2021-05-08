@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-    <header>
+    <header id="home">
         <nav class="navbar navbar-expand-md navbar-dark" id="navigace">
             <a href="#" class="navbar-brand"><span class="h3" id="brand-logo">Aurora Grove</span> </a>
             <button class="navbar-toggler" data-target="#menu" type="button" data-toggle="collapse"
@@ -109,11 +109,11 @@
                 </div>
             </div>
         </section>
-        <section class="container" id="explore">
+        <section class="container">
             <h2 class="text-center text-uppercase m-5">WE’VE CREATED A CAMPING EXPERIENCE THAT’S TURN-KEY AND HASSLE FREE.</h2>
             <div class="row p-2 d-flex">
                 <div class="col-md-6 p-3">
-                <div class="card p-0 pb-2 d-flex h-100">
+                <div class="card p-0 pb-2 d-flex h-100" id="experience">
                         <img src="images/winter.png" alt="" class="card-img-top">
                     <div class="card-body text-center">
                     <h2 class="text-primary text-center mb-3">Experience</h2>
@@ -123,7 +123,7 @@
                 </div>
             </div>
             <div class="col-md-6 p-3 ">
-                <div class="card p-0 pb-2 d-flex">
+                <div class="card p-0 pb-2 d-flex" id="explore">
                         <img src="images/dogs.png" alt="" class="card-img-top">
                     <div class="card-body text-center d-flex flex-column">
                     <h2 class="text-primary text-center mb-3">Explore</h2>
@@ -132,17 +132,17 @@
                 </div>
                 </div>
             </div>
-            <div class="container col-md-6 p-3 h-100">
+            <div class="container col-md-6 p-3 h-100" id="contact">
                 <div class="card h-100" id="card-nav">
                     <div class="card-header">
                         <ul class="nav nav-tabs card-header-tabs">
-                            <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#card-home">Home</a></li>
+                            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#card-home">Home</a></li>
                             <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#card-price">Price</a></li>
-                            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#card-contact">Contact</a></li>
+                            <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#card-contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="tab-content" id="cards-content">
-                        <div class="card-body tab-pane fade show active h-100" id="card-home">
+                        <div class="card-body tab-pane fade h-100" id="card-home">
                             <h2>Special jurney</h2>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, magni.</p>
                             <a href="" class="btn btn-primary">Go somewhere</a>
@@ -154,7 +154,7 @@
                                 <a href="" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                        <div class="card-body tab-pane fade h-100" id="card-contact">
+                        <div class="card-body tab-pane fade show active h-100" id="card-contact">
                             <h2>Contact</h2>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, magni.</p>
                             <a href="" class="btn btn-primary">Go somewhere</a>
@@ -278,11 +278,11 @@
         <footer id="footer">
             <div class="bg-dark">
                     <ul class="nav text-center justify-content-center flex-column flex-sm-row">
-                        <li class="nav-item"><a href="" class="font-weight-light p-md-4 text-white text-uppercase nav-link">faq</a></li>
-                        <li class="nav-item"><a href="" class="font-weight-light p-md-4 text-white text-uppercase nav-link">experience</a></li>
-                        <li class="nav-item"><a href="" class="font-weight-light p-md-4 text-white text-uppercase nav-link">explore</a></li>
-                        <li class="nav-item"><a href="" class="font-weight-light p-md-4 text-white text-uppercase nav-link">contact</a></li>
-                        <li class="nav-item"><a href="" class="font-weight-light p-md-4 text-white text-uppercase nav-link">book now</a></li>
+                        <li class="nav-item"><a href="#faq" class="font-weight-light p-md-4 text-white text-uppercase nav-link">faq</a></li>
+                        <li class="nav-item"><a href="#experience" class="font-weight-light p-md-4 text-white text-uppercase nav-link">experience</a></li>
+                        <li class="nav-item"><a href="#explore" class="font-weight-light p-md-4 text-white text-uppercase nav-link">explore</a></li>
+                        <li class="nav-item"><a href="#contact" class="font-weight-light p-md-4 text-white text-uppercase nav-link">contact</a></li>
+                        <li class="nav-item"><a href="#home" class="font-weight-light p-md-4 text-white text-uppercase nav-link">book now</a></li>
                     </ul>
             </div>
         </footer>
